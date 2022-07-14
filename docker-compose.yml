@@ -2,7 +2,7 @@ version: '3.4'
 services:
   jira:
     image: haxqer/jira:rm
-    platform: linux/amd64
+    platform: "linux/amd64"
     container_name: jira-srv
     environment:
       - TZ=Asia/Shanghai
@@ -21,7 +21,7 @@ services:
 
   mysql:
     image: mysql:5.7
-    platform: linux/amd64
+    platform: "linux/amd64"
     container_name: mysql-jira
     environment:
       - TZ=Asia/Shanghai
