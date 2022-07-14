@@ -14,7 +14,7 @@ default port: 8080
 - start jira & mysql
 
 ```
-    git clone https://github.com/malekc/jira_m1.git \
+    git clone https://github.com/malekc/jiram.git \
         && cd jira \
         && git checkout rm \
         && docker-compose pull \
